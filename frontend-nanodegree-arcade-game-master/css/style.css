@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+/*css for modal, font, color and moving bug background image added */
+.modal-bg {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/L8X1FJbC/fixed_bug.gif");
+}
+.modal-message {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Papyrus;
+    font-weight: bold;
+    color:purple;
+    padding: 2rem;
+}
+.modal-body {
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    background: rgba(76, 175, 80, 0.3);
+}
+.modal-button {
+    width: 80px;
+    height: 50px;
+    color:purple;
+    font-family: Papyrus;
+    font-weight: bold;   
+}
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.hide {
+    display: none;
+}
