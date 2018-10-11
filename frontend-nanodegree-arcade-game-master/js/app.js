@@ -88,7 +88,7 @@ Player.prototype.reset = function() {
     this.x = this.startX;
 }
 
-const player = new Player();
+const player = new Player(200, 400);
 const bug1 = new Enemy(-105, 0, 175);
 const bug2 = new Enemy(-105, 86, 115);
 const bug3 = new Enemy((-105 * 2.5), 86, 200);
